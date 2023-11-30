@@ -1,791 +1,856 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+        integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
-  <title>Jatin's Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Author: Jatin Anand
-  ======================================================== -->
 </head>
 
 <body>
+    <header class="top-bar">
+        <div class="col-10 mx-auto px-0">
+            <div class="d-flex w-100 justify-content-between">
+                <div class="logo">
+                    <div class="logo-name">Jatin Anand</div>
+                    <div class="logo-title">UI/UX Designer</div>
+                </div>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column h-100 justify-content-between">
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Portfolio</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <div class="profile">
-        <!-- <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle"> -->
-        <!-- <h1 class="text-light"><a href="index.html">Jatin Anand</a></h1> -->
-        <div class="social-links py-4 text-center">
-          <!-- <a href="javascript:void(0);" class="cursor-default twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="javascript:void(0);" class="cursor-default facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="javascript:void(0);" class="cursor-default instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="javascript:void(0);" class="cursor-default google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="javascript:void(0);" class="cursor-default linkedin"><i class="bx bxl-linkedin"></i></a> -->
-          <a href="www.linkedin.com/in/jatin-anand-651521298" class="linkedin-full"><svg
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 128">
-              <path fill="#0A66C2"
-                d="m202.057 74.971l28.252 34.743H208l-25.143-31.908v31.908h-18.286V18.286h18.286v53.76l23.223-26.332h23.314l-27.337 29.257Zm-73.143-31.085a24.777 24.777 0 0 0-20.205 10.971v-9.143h-17.28v64h18.285V79.817a15.909 15.909 0 0 1 15.177-17.646c10.606 0 12.252 10.423 12.252 17.646v29.897h18.286v-33.92c0-20.114-6.675-31.908-26.149-31.908h-.366Zm163.657 35.291c.07 1.34.07 2.683 0 4.023h-48v.64a16.366 16.366 0 0 0 16.732 13.074a22.949 22.949 0 0 0 16.823-6.308l12.16 9.143a39.406 39.406 0 0 1-29.715 11.794a31.909 31.909 0 0 1-33.828-34.286a32.731 32.731 0 0 1 34.377-33.371c17.189 0 31.451 12.16 31.451 35.291Zm-17.005-7.863a13.349 13.349 0 0 0-14.537-12.8c-8.04-.869-15.321 4.794-16.458 12.8h30.995ZM18.286 18.286H0v91.428h54.857V91.43H18.286V18.286Zm329.143 0h18.285v91.428h-17.28v-6.4a22.309 22.309 0 0 1-18.285 8.229a31.177 31.177 0 0 1-30.263-33.829a30.72 30.72 0 0 1 30.171-33.828a23.954 23.954 0 0 1 17.372 6.4v-32Zm1.371 59.428A14.903 14.903 0 0 0 333.989 60.8c-8.747.635-15.375 8.157-14.903 16.914c-.472 8.757 6.156 16.28 14.903 16.915A14.903 14.903 0 0 0 348.8 77.714ZM73.143 16.457A11.611 11.611 0 0 0 61.714 27.43c0 6.311 5.117 11.428 11.429 11.428S84.57 33.74 84.57 27.43a11.611 11.611 0 0 0-11.428-10.972ZM64 109.714h18.286v-64H64v64ZM512 9.143v109.714a9.143 9.143 0 0 1-9.143 9.143H393.143a9.143 9.143 0 0 1-9.143-9.143V9.143A9.143 9.143 0 0 1 393.143 0h109.714A9.143 9.143 0 0 1 512 9.143Zm-91.429 36.571h-18.285v64h18.285v-64Zm2.286-18.285c0-6.312-5.117-11.429-11.428-11.429C405.117 16 400 21.117 400 27.429c0 6.311 5.117 11.428 11.429 11.428c6.311 0 11.428-5.117 11.428-11.428Zm70.857 48.365c0-20.114-6.674-31.908-26.148-31.908a24.777 24.777 0 0 0-20.572 10.971v-9.143h-17.28v64H448V79.817a15.909 15.909 0 0 1 15.177-17.646c10.606 0 12.252 10.423 12.252 17.646v29.897h18.285v-33.92Z" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Jatin Anand</h1>
-      <p>I'm <span class="typed" data-typed-items="UI/UX Designer, Frontend Developer"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>I am a skilled and experienced Front-end Developer with a strong focus on Angular and TypeScript, as well
-            as a deep understanding of front-end technologies, UX/UI principles, and responsive design. With a proven
-            track record in creating user-friendly web applications and a keen eye for design aesthetics, I am eager to
-            contribute my expertise to a dynamic team.</p>
-        </div>
-
-        <div class="row">
-          <!-- <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div> -->
-          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h2 class="mb-5">UI/UX Designer &amp; Frontend Developer.</h2>
-            <!-- <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
-              magna aliqua.
-            </p> -->
-            <div class="row mb-3">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 Apr 1997</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                    <a href="https://jatinanand197.github.io/portfolio/">My Portfolio</a>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <a href="tel:+1 (717) 379 6200">+1
-                      (717) 379 6200</a></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pennsylvania, USA</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <a
-                      href="mailto:jatinanand197@gmail.com">jatinanand197@gmail.com</a>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Open to work:</strong> <span>Available</span></li>
-                </ul>
-              </div>
+                <nav class="nav-bar d-flex align-items-center gap-3">
+                    <div class="header-otw"><a href="mailto:jatinanand197@gmail.com"
+                            class="content-underline-effect">Open to Work</a></div>
+                    <div class="menu-toggler">
+                        <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+                    </div>
+                </nav>
             </div>
-            <p>
-              I'm a passionate UI/UX Designer & Frontend Developer, blending aesthetics with functionality to create
-              user-centered digital experiences. With a keen eye for detail, I craft responsive designs and efficient
-              code. I thrive on continuous learning and value collaborative, client-centered approaches to deliver
-              innovative solutions. Let's transform your ideas into visually captivating and user-friendly realities.
+        </div>
+    </header>
+
+    <section class="hero-sec">
+        <div class="col-10 mx-auto px-xl-3">
+            <h1 class="hero-heading">
+                Hi visitor, I'm Jatin, 👋
+            </h1>
+            <p class="hero-content-txt mb-4">
+                Designing cool stuff for 6 years—blending beauty with function in digital experiences. Always going
+                above and beyond to wow users.
             </p>
-          </div>
+            <div class="d-flex justify-content-center gap-3">
+                <a class="ja-btn ja-btn-primary" href="javascript:void(0);">
+                    <span class="ja-btn-title">Learn more</span>
+                    <span class="ja-btn-bg-shape"></span>
+                </a>
+                <a class="ja-btn ja-btn-outline-primary" href="javascript:void(0);">
+                    <span class="ja-btn-title">My Resume</span>
+                    <span class="ja-btn-bg-shape"></span>
+                </a>
+            </div>
         </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <!-- <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Facts Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Here, you can explore a diverse collection of my latest projects, ranging across various industries and
-            platforms. Each project exemplifies my commitment to user-centered design and showcases how I've translated
-            ideas into engaging digital experiences. From web applications to mobile interfaces, my portfolio reflects
-            my passion for innovation and my dedication to creating visually captivating and highly functional solutions
-            that leave a lasting impression. Dive into my work and witness the results of my creative and technical
-            expertise.</p>
-        </div>
-
-        <!-- <div class="row" data-aos="fade-up">
-      <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-      </div>
-    </div> -->
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/ostana.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/ostana.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Ostana"><i class="bx bx-plus"></i></a>
-                <a href="https://ostana.io/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/flightschampion.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/flightschampion.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Flights Champion"><i class="bx bx-plus"></i></a>
-                <a href="https://flightschampion.com.au/" target="_blank" title="More Details"><i
-                    class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/wonderlister.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/wonderlister.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Wonder Lister"><i class="bx bx-plus"></i></a>
-                <a href="https://wonderlister.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/wedtrendCA.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/wedtrendCA.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Wedtrend Canada"><i class="bx bx-plus"></i></a>
-                <a href="https://wedtrend.ca/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/wedtrendIN.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/wedtrendIN.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Wedtrend India"><i class="bx bx-plus"></i></a>
-                <a href="https://wedtrend.in/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Hiring-Management-System.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Hiring-Management-System.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Hiring Management System"><i class="bx bx-plus"></i></a>
-                <a href="https://www.figma.com/proto/WW01rnLKdhTFhrVYifTaDw/Hiring-Management-System?type=design&node-id=53-2709&t=nNYU4MgS82Oz4Dr4-1&scaling=min-zoom&page-id=11%3A303&mode=design"
-                  target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/step2gen.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/step2gen.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Step2gen"><i class="bx bx-plus"></i></a>
-                <a href="https://www.step2gen.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Edqan.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Edqan.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Edqan"><i class="bx bx-plus"></i></a>
-                <a href="https://www.figma.com/proto/4GfOOZ66KwqG6MDdvwpaa4/Edqan?type=design&node-id=3-2&t=EHiCQubwCFRPAN1F-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A2&mode=design"
-                  target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/CryptoMobile.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/CryptoMobile.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="CryptoMobile"><i class="bx bx-plus"></i></a>
-                <a href="https://www.figma.com/proto/e1mAGdkTBAlzgp42PbBuIi/CryptoMobile?type=design&node-id=1-2&t=RRpNwYOjRoQ4pgRw-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design"
-                  target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </section>
-    <!-- End Portfolio Section -->
 
+    <section class="projects-sec" id="projectsSec">
+        <div class="col-10 mx-auto px-0">
+            <h2 class="sec-title">
+                Projects
+            </h2>
+            <p class="sec-txt col-8 mx-auto mb-5">
+                Designing cool stuff for 6 years—blending beauty with function in digital experiences. Always going
+                above and beyond to wow users.
+            </p>
+            <div class="d-flex justify-content-between mb-5">
+                <div class="ja-display-card mt-5">
+                    <div class="ja-card-img-bx">
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/portfolio/ostana.png" alt="">
+                    </div>
+                    <div class="ja-card-txt-bx">
+                        <h4 class="ja-card-title">Ostana</h4>
+                        <p class="ja-card-desc">Description</p>
+                    </div>
+                </div>
 
+                <div class="ja-display-card">
+                    <div class="ja-card-img-bx">
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/portfolio/ostana.png" alt="">
+                    </div>
+                    <div class="ja-card-txt-bx">
+                        <h4 class="ja-card-title">Ostana</h4>
+                        <p class="ja-card-desc">Description</p>
+                    </div>
+                </div>
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
+                <div class="ja-display-card mt-5">
+                    <div class="ja-card-img-bx">
+                        <div class="overlay">
+                            <ul>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                                <li><a href="http://"><i class="ri-menu-line"></i></a></li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/portfolio/ostana.png" alt="">
+                    </div>
+                    <div class="ja-card-txt-bx">
+                        <h4 class="ja-card-title">Ostana</h4>
+                        <small class="ja-card-desc">Description</small>
+                    </div>
+                </div>
+            </div>
 
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>I am a skilled and experienced Front-end Developer with a strong focus on Angular and TypeScript, as well
-            as a deep understanding of front-end technologies, UX/UI principles, and responsive design. With a proven
-            track record in creating user-friendly web applications and a keen eye for design aesthetics, I am eager to
-            contribute my expertise to a dynamic team.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a class="ja-btn ja-btn-primary" href="javascript:void(0);">
+                    <span class="ja-btn-title"><i class="ri-pencil-ruler-2-line"></i> All Projects</span>
+                    <span class="ja-btn-bg-shape"></span>
+                </a>
+                <a class="ja-btn ja-btn-outline-primary" href="javascript:void(0);">
+                    <span class="ja-btn-title"><i class="ri-test-tube-line"></i> Experiments</span>
+                    <span class="ja-btn-bg-shape"></span>
+                </a>
+            </div>
         </div>
-
-        <div class="row">
-          <div class="col-12" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Jatin Anand</h4>
-              <p><em>I'm a passionate UI/UX Designer & Frontend Developer, blending aesthetics with functionality to
-                  create user-centered digital experiences. With a keen eye for detail, I craft responsive designs and
-                  efficient code. I thrive on continuous learning and value collaborative, client-centered approaches to
-                  deliver innovative solutions. Let's transform your ideas into visually captivating and user-friendly
-                  realities.</em></p>
-              <ul class="d-flex">
-                <li class="">Pennsylvania, USA</li>
-                <li class="ms-5">+1 (717) 379 6200</li>
-                <li class="ms-5">jatinanand197@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Computer Application &amp; Web development</h4>
-              <h5>2020 - 2022</h5>
-              <p><em>Chandigarh University, Mohali, Punjab, India</em></p>
-              <p>An MCA program specializing in web development focuses on the skills and knowledge needed to create web
-                applications and websites. Students learn front-end technologies (HTML, CSS, JavaScript), back-end
-                programming, database management, web security, and web design. They gain expertise in optimizing web
-                performance and using content management systems. Graduates are prepared for roles like web developer,
-                UI/UX designer, and full-stack developer in various industries.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Computer Application &amp; Web development</h4>
-              <h5>2016 - 2019</h5>
-              <p><em>Chandigarh University, Mohali, Punjab, India</em></p>
-              <p>A BCA program with a web development specialization provides students with foundational computer
-                science knowledge and specific skills for creating web applications and websites. It covers front-end
-                technologies, back-end development, web design, responsive design, and database management. Graduates
-                are well-prepared for roles such as web developer, UI/UX designer, and more in various industries.
-              </p>
-            </div>
-
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior UI/UX Engineer</h4>
-              <h5>2020 - 2023</h5>
-              <p><em>Step2gen Technologies Pvt. Ltd., Mohali, Punjab, India </em></p>
-              <ul>
-                <li>Collaborat with product managers, developers, and other stakeholders to ensure
-                  alignment with project goals and technical feasibility.</li>
-                <li>Manage multiple design projects, meet deadlines, and deliver high-quality designs.</li>
-                <li>Communicate design ideas and rationale to team members and clients, incorporating feedback and
-                  iterating on designs as necessary.</li>
-                <li>Present the project requirements to client and the team members.</li>
-                <li>Provide guidance and mentorship to junior designers and team members.</li>
-                <li>Conduct user research, including user interviews, surveys, and usability testing,
-                  to understand user needs and preferences.</li>
-                <li>Create intuitive designs and user-friendly interfaces, including the creation of interactive
-                  prototypes and defining interactive elements.</li>
-                <li>Create designs using design tools and software, such as Adobe Creative Suite, Sketch, Figma, and
-                  prototyping
-                  tools.</li>
-
-                <!--
-
-                <li>Ability to create site maps, information hierarchies, and user flows to organize content and
-                  structure the user experience effectively.</li>
-
-                  
-                  <li>Strong skills in visual design, including knowledge of typography, color theory, iconography, and
-                    creating polished, high-fidelity design mockups.</li>
-
-                <li>Experience in planning and conducting usability tests to gather user feedback and iterate on designs
-                  for improved user experiences.</li>
-
-                <li>Proficiency in using design and prototyping tools to create interactive prototypes that simulate the
-                  user experience.</li>
-
-                  <li>Excellent communication skills to convey design decisions and rationale clearly to team members and
-                    stakeholders.</li>
-
-                    <li>Knowledge of accessibility standards and the ability to design products that are inclusive and
-                      accessible to users with disabilities.</li>
-
-                      <li>Staying updated with the latest design trends, tools, and technologies to enhance the quality of
-                        design work.</li>
-
-
-                        <li>A keen eye for detail and the ability to review and ensure the implementation of designs during the
-                          development phase matches the intended design and user experience.</li> 
-                
-                <li>A commitment to advocating for a user-centered design approach throughout the design and development
-                  process.</li>
-                <li>Strong problem-solving skills to address design challenges and find creative solutions.</li>
-                <li>The ability to adapt to changing project requirements and priorities in a dynamic design
-                  environment.</li>
-                <li>A deep understanding of and empathy for end-users to create designs that resonate with their needs
-                  and expectations.</li>
-                
-                <li>Ability to interpret user data and analytics to inform design decisions and measure the impact of
-                  design changes.</li>
-                <li>Familiarity with A/B testing methodologies and tools to optimize user experiences.</li>
-                <li>Creating and utilizing user personas to guide design decisions.</li>
-                <li>Conducting in-depth field research to gain a deep understanding of user behaviors and contexts.</li>
-                <li>Proficiency in designing for mobile devices, considering responsive and adaptive design principles.</li>
-                <li>Create wireframes, mockups, and interactive prototypes using Figma, Adobe XD or more to visualize
-                  and communicate design concepts and functionality.</li>
-                <li>Develop visually appealing and consistent user interfaces by writing code in Angular, React.js, etc
-                  that reflect the brand identity, ensuring the designs adhere to UI design. </li>
-                <li>Collaborate with product managers and other stakeholders to define and align the design strategy
-                  with the overall business goals and objectives.</li> -->
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Front End Web Developer</h4>
-              <h5>2019 - 2020</h5>
-              <p><em>Affichi App Inc, Nanaimo, BC, Canada</em></p>
-              <ul>
-                <li>Develop and maintain websites and web applications by writing clean, efficient, and responsive HTML,
-                  CSS, Angular, SCSS, TS and JavaScript code.</li>
-                <li>Create responsive designs that adapt to various screen sizes, including desktops, tablets, and
-                  mobile devices, to provide an optimal user experience.</li>
-                <li>Prepare and deploy web projects to web servers and configure hosting environments for optimal
-                  website performance.</li>
-                <li>Create design documentation using project menagment tools, style guides, and design systems to
-                  maintain the design consistency.</li>
-                <li>Engage with clients or project stakeholders to understand their requirements, provide updates on
-                  progress, and address any feedback or concerns.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>UI Developer</h4>
-              <h5>2017 - 2019</h5>
-              <p><em>Triade Solutions, Hoshiarpur, Punjab, India</em></p>
-              <ul>
-                <li>Create and upkeep the front-end of websites and web applications through the creation of
-                  well-structured, performant, and adaptive HTML, CSS, and JavaScript code.</li>
-                <li>Collaborate with UX designers to create intuitive and user-friendly interfaces that enhance the
-                  overall user experience.</li>
-                <li>Conduct testing and debugging to identify and fix front-end issues, ensuring the website's
-                  functionality and appearance meet the required standards.</li>
-                <li>Stay up-to-date with the latest front-end development technologies, tools, and best practices to
-                  continually improve skills and adopt innovative solutions.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-    <!-- End Resume Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
+    <section class="about-sec" id="aboutSec">
+        <div class="col-10 mx-auto px-0">
+            <h2 class="sec-title">
+                Design Tales
+            </h2>
+            <p class="sec-txt col-8 mx-auto mb-5">
+                Ever wondered about the creative force behind the designs? Delve into the backstory, design philosophy,
+                and experiences waiting for your exploration.
+            </p>
+            <div class="story-tree-wrapper">
+                <div class="story-tree">
+                    <svg viewBox="0 0 386 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_dd_77_1634)">
+                            <path
+                                d="M233.666 507.465C229.843 511.066 226.793 515.66 223.407 519.882C222.066 516.67 221.366 513.176 221.355 509.638C220.234 471.716 219.236 433.781 217.846 395.871C217.185 378.115 222.118 362.991 233.543 350.648C238.588 345.197 288.155 303.785 301.116 295.789C315.803 286.724 336.309 263.926 349.382 248.405C349.73 247.977 349.925 247.423 349.93 246.848C349.936 246.272 349.751 245.714 349.41 245.279C349.07 244.844 348.597 244.562 348.082 244.486C347.567 244.41 347.044 244.545 346.613 244.866C330.692 257.072 306.665 274.928 295.723 280.317C278.58 288.76 227.331 334.952 217.33 344.005C216.546 316.6 210.547 275.226 210.547 192.316C210.547 185.809 240.001 165.507 260.036 151.687C260.631 151.315 261.067 150.696 261.25 149.967C261.433 149.239 261.347 148.459 261.011 147.8C260.675 147.142 260.117 146.658 259.459 146.455C258.801 146.253 258.097 146.348 257.502 146.72C239.698 156.542 209.415 184.605 209.415 176.919C209.415 132.85 207.576 47.7798 206.051 23.2185C206.043 22.5599 205.798 21.9322 205.371 21.4734C204.944 21.0147 204.37 20.7625 203.776 20.7724C203.181 20.7823 202.614 21.0533 202.2 21.526C201.786 21.9987 201.558 22.6343 201.567 23.293C200.625 54.1373 200.031 113.032 198.865 150.929C198.472 156.12 169.098 130.031 155.139 118.819C154.986 118.718 154.806 118.678 154.63 118.707C154.453 118.737 154.291 118.832 154.171 118.978C154.051 119.124 153.981 119.312 153.971 119.509C153.961 119.706 154.014 119.901 154.119 120.06C167.573 135.582 198.854 162.279 198.663 170.536C196.914 246.952 194.033 277.324 193.506 299.911C193.416 304.133 192.967 308.342 192.665 312.912C172.484 296.397 121.896 244.617 97.8248 228.773C83.9671 219.671 57.2832 201.132 36.1604 186.381C35.7356 186.136 35.245 186.071 34.78 186.197C34.315 186.323 33.9074 186.633 33.633 187.067C33.3587 187.502 33.2363 188.032 33.2887 188.559C33.3412 189.086 33.5648 189.574 33.918 189.932C55.7136 209.241 82.5993 232.945 84.6735 234.311C98.8787 243.686 173.975 318.164 178.078 323.442C187.631 335.722 189.593 348.636 190.265 368.578C191.387 401.633 190.355 434.911 188.931 466.029C188.932 468.727 188.715 471.42 188.281 474.075C176.778 461.794 148.872 424.704 109.99 403.086C102.893 399.137 77.6661 390.669 60.4786 385.18C59.9965 385.025 59.4796 385.071 59.0266 385.311C58.5737 385.551 58.2167 385.968 58.0237 386.481C57.8308 386.995 57.8156 387.569 57.981 388.094C58.1463 388.619 58.4807 389.058 58.9202 389.327C71.4212 397.039 89.4384 408.04 104.238 416.645C133.87 433.731 175.701 486.492 176.823 488.74C183.18 501.517 187.698 515.014 187.362 529.828C186.498 567.875 183.538 616.24 182.619 654.286H229.024C228.363 627.701 223.934 590.772 222.779 564.199C222.241 551.571 226.502 541.451 233.565 532.287C237.669 526.96 271.875 486.629 290.397 464.116C297.124 455.909 301.609 451.587 304.378 449.327C304.639 449.108 304.833 448.805 304.933 448.459C305.032 448.113 305.033 447.741 304.935 447.395C304.837 447.049 304.645 446.744 304.384 446.523C304.124 446.302 303.809 446.176 303.481 446.161C297.875 445.913 290.947 449.725 282.179 458.578C261.796 479.253 237.198 504.162 233.666 507.465Z"
+                                fill="#222222" />
+                            <path
+                                d="M244.44 505.279C257.311 514.505 275.699 514.244 288.558 505.627C299.826 498.077 316.857 471.033 318.617 437.717C318.639 437.165 318.474 436.624 318.154 436.199C317.835 435.775 317.385 435.497 316.89 435.42C277.033 429.82 247.658 451.128 242.131 472.982C238.139 488.839 242.736 503.739 244.44 505.279Z"
+                                fill="#222222" />
+                            <path
+                                d="M169.064 471.095C161.216 456.505 144.633 447.701 129.666 449.117C116.537 450.358 90.4248 466.227 75.5357 495.222C75.2878 495.704 75.2147 496.272 75.3313 496.812C75.4479 497.351 75.7454 497.822 76.1635 498.127C109.642 522.713 144.499 517.995 158.2 501.169C168.122 488.951 169.983 473.305 169.064 471.095Z"
+                                fill="#222222" />
+                            <path
+                                d="M144.219 437.407C159.5 436.078 173.974 423.5 179.457 408.003C184.267 394.418 182.966 361.488 166.093 333.835C165.808 333.379 165.379 333.059 164.891 332.937C164.403 332.815 163.892 332.901 163.458 333.177C128.702 355.528 117.075 392.221 124.677 413.305C130.181 428.566 142.032 437.332 144.219 437.407Z"
+                                fill="#222222" />
+                            <path
+                                d="M100.033 403.371C100.235 386.385 90.2343 369.286 76.8027 361.836C65.0192 355.292 35.3193 353.74 8.89331 369.845C8.45766 370.113 8.12994 370.555 7.97602 371.08C7.82211 371.605 7.8534 372.175 8.06363 372.676C25.0606 413.019 56.9467 429.236 76.6345 422.73C90.8061 418.061 99.7755 405.78 100.033 403.371Z"
+                                fill="#222222" />
+                            <path
+                                d="M160.487 296.459C152.829 281.745 136.337 272.705 121.358 273.897C108.207 274.928 81.9374 290.425 66.6671 319.195C66.4179 319.676 66.3407 320.242 66.4508 320.783C66.5608 321.323 66.8501 321.798 67.2613 322.113C100.448 347.196 135.361 343.049 149.264 326.372C159.321 314.303 161.372 298.682 160.487 296.459Z"
+                                fill="#222222" />
+                            <path
+                                d="M82.6328 224.824C87.6668 208.794 83.0588 189.075 72.4525 177.291C63.1356 166.96 35.3754 155.077 5.73158 161.149C5.24111 161.255 4.80474 161.562 4.50961 162.008C4.21448 162.455 4.08231 163.008 4.13952 163.558C8.7139 207.763 34.4111 234.336 54.8613 235.031C69.6944 235.528 81.7022 227.022 82.6328 224.824Z"
+                                fill="#222222" />
+                            <path
+                                d="M134.319 259.332C148.547 253.011 158.985 236.223 160.027 219.597C160.958 205.044 150.834 174.038 127.267 153.227C126.875 152.885 126.38 152.721 125.883 152.767C125.386 152.813 124.923 153.066 124.587 153.475C97.4661 186.306 96.2328 225.172 109.171 242.767C118.533 255.532 132.211 259.99 134.319 259.332Z"
+                                fill="#222222" />
+                            <path
+                                d="M201.174 162.329C205.85 146.186 200.804 126.567 189.963 115.143C180.421 105.073 152.403 93.9469 122.905 100.776C122.413 100.899 121.98 101.222 121.693 101.683C121.406 102.143 121.287 102.706 121.358 103.26C126.908 147.328 153.155 173.156 173.65 173.343C188.46 173.442 200.277 164.551 201.174 162.329Z"
+                                fill="#222222" />
+                            <path
+                                d="M203.506 111.729C218.44 107.879 231.042 93.1026 234.383 76.8236C237.31 62.5935 231.569 30.2468 211.153 5.69799C210.811 5.29447 210.345 5.04758 209.847 5.00619C209.348 4.96481 208.854 5.13188 208.462 5.47442C177.136 33.351 170.566 71.5464 180.926 91.1532C188.427 105.309 201.331 112.014 203.506 111.729Z"
+                                fill="#222222" />
+                            <path
+                                d="M208.753 189.013C219.853 200.735 237.96 204.261 252.042 198.45C264.375 193.347 285.677 170.288 292.987 137.916C293.102 137.379 293.031 136.813 292.789 136.33C292.546 135.848 292.148 135.483 291.675 135.309C253.443 121.65 221.041 136.463 211.915 156.803C205.322 171.53 207.341 187.163 208.753 189.013Z"
+                                fill="#222222" />
+                            <path
+                                d="M243.285 323.976C258.298 320.499 271.191 305.958 274.835 289.828C278.042 275.673 272.94 243.189 253.017 218.156C252.683 217.744 252.221 217.485 251.722 217.432C251.224 217.379 250.726 217.536 250.326 217.871C218.463 244.978 211.141 283.011 221.12 302.842C228.34 317.196 241.11 324.212 243.285 323.976Z"
+                                fill="#222222" />
+                            <path
+                                d="M309.289 281.646C322.362 290.499 340.749 289.717 353.396 280.739C364.495 272.867 380.887 245.35 381.873 211.997C381.888 211.445 381.713 210.906 381.385 210.49C381.056 210.073 380.598 209.809 380.102 209.75C340.121 205.292 311.251 227.42 306.239 249.485C302.607 265.329 307.596 280.155 309.289 281.646Z"
+                                fill="#222222" />
+                            <path
+                                d="M260.148 325.13C259.15 342.067 268.332 359.725 281.383 367.945C292.841 375.159 322.463 378.425 349.584 363.884C350.03 363.635 350.375 363.211 350.554 362.694C350.732 362.177 350.73 361.606 350.548 361.091C335.513 319.828 304.389 301.811 284.477 307.138C270.048 311 260.507 322.734 260.148 325.13Z"
+                                fill="#222222" />
+                        </g>
+                    </svg>
+                </div>
+                <a class="ja-btn ja-story-tree-btn" href="javascript:void(0);">
+                    <span class="ja-btn-title">About Me</span>
+                    <span class="ja-btn-bg-shape"></span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
 
-        <div class="section-title">
-          <h2>Skills</h2>
-          <!-- <p></p> -->
+    <section class="skills-sec" id="skillsSec">
+        <div class="col-10 mx-auto px-0">
+            <h2 class="sec-title">
+                Expertise
+            </h2>
+            <p class="sec-txt col-8 mx-auto mb-3">
+                Embark on my design journey, rich with experience, and explore the tools and technologies that bring my
+                creations to life.
+            </p>
+        </div>
+        <div class="marquee">
+            <div class="marquee-slider scroll slider-1">
+                <ul class="marquee-content">
+                    <li class="marquee-item">UI/UX Design</li>
+                    <li class="marquee-item">ux research</li>
+                    <li class="marquee-item">wireframing</li>
+                    <li class="marquee-item">Frontend Development</li>
+                    <li class="marquee-item">interaction designing</li>
+                    <li class="marquee-item">prototyping</li>
+                    <li class="marquee-item">qa</li>
+                </ul>
+            </div>
+            <div class="marquee-slider scroll slider-1">
+                <ul class="marquee-content">
+                    <li class="marquee-item">UI/UX Design</li>
+                    <li class="marquee-item">ux research</li>
+                    <li class="marquee-item">wireframing</li>
+                    <li class="marquee-item">Frontend Development</li>
+                    <li class="marquee-item">interaction designing</li>
+                    <li class="marquee-item">prototyping</li>
+                    <li class="marquee-item">qa</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="row skills-content" data-aos="fade-up">
 
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Project Management <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
+        <div class="marquee img-marquee">
+            <div class="marquee-slider scroll slider-2 reverse">
+                <ul class="marquee-content">
+                    <li class="marquee-item" title="HTML">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/html.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-html.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="CSS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/css.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-css.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="SASS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/sass.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-sass.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Java Script">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/java-script.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-java-script.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Type Script">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/type-script.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-type-script.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Bootstrap">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/bootstrap.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-bootstrap.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Tailwind CSS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/tailwind-css.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-tailwind-css.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Angular">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/angular.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-angular.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="React JS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/react-js.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-react-js.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="jQuery">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/jquery.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-jquery.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Three.js">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/three-js.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-three-js.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="GSAP">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/gsap.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-gsap.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Figma">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/figma.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-figma.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Sketch">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/sketch.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-sketch.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Adobe XD">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/adobe-xd.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-adobe-xd.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Adobe Illustrator">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/illustrator.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-illustrator.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Adobe Photoshop">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/photoshop.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-photoshop.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Balsamiq">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/balsamiq.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-balsamiq.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Wordpress">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/wordpress.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-wordpress.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Drupal">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/drupal.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-drupal.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="SketchUp">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/sketchup.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-sketchup.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Blender">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/blender.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-blender.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">UI Design <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
+            <div class="marquee-slider scroll slider-2 reverse">
+                <ul class="marquee-content">
+                    <li class="marquee-item" title="HTML">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/html.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-html.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="CSS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/css.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-css.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="SASS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/sass.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-sass.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Java Script">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/java-script.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-java-script.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Type Script">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/type-script.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-type-script.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Bootstrap">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/bootstrap.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-bootstrap.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Tailwind CSS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/tailwind-css.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-tailwind-css.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Angular">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/angular.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-angular.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="React JS">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/react-js.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-react-js.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="jQuery">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/jquery.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-jquery.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Three.js">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/three-js.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-three-js.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="GSAP">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/gsap.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-gsap.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Figma">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/figma.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-figma.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Sketch">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/sketch.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-sketch.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Adobe XD">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/adobe-xd.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-adobe-xd.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Adobe Illustrator">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/illustrator.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-illustrator.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Adobe Photoshop">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/photoshop.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-photoshop.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Balsamiq">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/balsamiq.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-balsamiq.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Wordpress">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/wordpress.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-wordpress.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Drupal">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/drupal.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-drupal.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="SketchUp">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/sketchup.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-sketchup.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="marquee-item" title="Blender">
+                        <div class="img-wrapper">
+                            <div class="clr-img">
+                                <img src="assets/img/icon-n-logos/blender.svg" alt="" srcset="">
+                            </div>
+                            <div class="bw-img">
+                                <img src="assets/img/icon-n-logos/bw-blender.svg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">UX Design <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Frontend <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Mockups <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Prototyping <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Wireframing <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">SCSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">TypeScript <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Bootstrap <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Tailwind CSS <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Angular <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">React <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">jQuary <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Three.js <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">GSAP <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Drupal/CMS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Illustrator <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Adobe XD <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Figma <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Balsamiq <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">SketchUp <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="progress">
-              <span class="skill">Blender <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
-      </div>
+
+        <div class="marquee">
+            <div class="marquee-slider scroll slider-3">
+                <ul class="marquee-content">
+                    <li class="marquee-item">stress management</li>
+                    <li class="marquee-item">problem solving</li>
+                    <li class="marquee-item">teamwork</li>
+                    <li class="marquee-item">constantly</li>
+                    <li class="marquee-item">improving</li>
+                </ul>
+            </div>
+            <div class="marquee-slider scroll slider-3">
+                <ul class="marquee-content">
+                    <li class="marquee-item">stress management</li>
+                    <li class="marquee-item">problem solving</li>
+                    <li class="marquee-item">teamwork</li>
+                    <li class="marquee-item">constantly</li>
+                    <li class="marquee-item">improving</li>
+                </ul>
+            </div>
+        </div>
 
     </section>
-    <!-- End Skills Section -->
+
+    <section class="contact-sec" id="contactSec">
+        <div class="col-10 mx-auto px-0">
+            <h2 class="sec-title">
+                Get in Touch
+            </h2>
+            <p class="sec-txt col-8 mx-auto mb-4">
+                Ready to elevate your digital presence or transform your user experience? Let's connect and discuss how
+                we can collaborate to bring your vision to life. Whether you're a client, recruiter, or fellow designer,
+                I'm excited to explore new opportunities and challenges.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a class="ja-btn ja-btn-outline-primary" href="javascript:void(0);">
+                    <span class="ja-btn-title">Say Hello!</span>
+                    <span class="ja-btn-bg-shape"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="col-10 mx-auto px-0 py-3">
+            <ul class="contact-links">
+                <li><a href="">dribbble</a></li>
+                <li><a href="">figma</a></li>
+                <li><a href="">Behance</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Codepen</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">whatsapp</a></li>
+                <li><a href="">awwwards</a></li>
+                <li><a href="mailto:jatinanand197@gmail.com">Email</a></li>
+            </ul>
+</div>
+    </footer>
 
 
-
-  </main><!-- End #main -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </body>
+
+<script>
+    $(function () {
+        $('a.main-nav-toggle').on('click', function (e) {
+            e.preventDefault();
+            if ($(this).hasClass('active-menu')) {
+                $(this).removeClass('active-menu');
+            } else {
+                $(this).addClass('active-menu');
+            }
+        });
+    });
+
+    $(function () {
+        $('.ja-btn-primary, .ja-btn-outline-primary')
+            .on('mouseenter', function (e) {
+                var parentOffset = $(this).offset(),
+                    relX = e.pageX - parentOffset.left,
+                    relY = e.pageY - parentOffset.top;
+                $(this).find('span.ja-btn-bg-shape').css({ top: relY, left: relX })
+            })
+            .on('mouseout', function (e) {
+                var parentOffset = $(this).offset(),
+                    relX = e.pageX - parentOffset.left,
+                    relY = e.pageY - parentOffset.top;
+                $(this).find('span.ja-btn-bg-shape').css({ top: relY, left: relX })
+            });
+    });
+
+    $(function () {
+        $('.ja-story-tree-btn').hover(
+            function () {
+                $(this).css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 100%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 100%) 0px 2px 1px)"
+                })
+                $(".story-tree svg").css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 100%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 100%) 0px 2px 1px)"
+                })
+            },
+            function () {
+                $(this).css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 30%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 30%) 0px 2px 1px)"
+                })
+                $(".story-tree svg").css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 30%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 30%) 0px 2px 1px)"
+                })
+            },
+        )
+
+        $('.story-tree svg path').hover(
+            function () {
+                $(this).css({ "cursor": "pointer" });
+                $(".story-tree svg").css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 100%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 100%) 0px 2px 1px)"
+                })
+                $(".ja-story-tree-btn").css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 100%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 100%) 0px 2px 1px)"
+                })
+            },
+            function () {
+                $(this).css({ "cursor": "default" });
+                $(".story-tree svg").css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 30%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 30%) 0px 2px 1px)"
+                })
+                $(".ja-story-tree-btn").css({
+                    "filter": "drop-shadow(rgba(255, 255, 255, 30%) 0px -1px 1px) drop-shadow(rgba(255, 255, 255, 30%) 0px 2px 1px)"
+                })
+            },
+        )
+
+        $('.story-tree svg path').click(
+            function () {
+                window.location.href = '/about';
+                return false;
+            });
+    });
+
+</script>
 
 </html>
