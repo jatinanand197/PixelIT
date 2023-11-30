@@ -143,7 +143,6 @@ ul {
     position: relative;
 }
 
-
 .top-bar .menu-toggler a.main-nav-toggle {
     --line-thickness: 3px;
     display: block;
@@ -220,6 +219,7 @@ ul {
 .hero-sec .hero-heading {
     font-size: 50px;
     letter-spacing: 3px;
+    margin-top: 3rem;
     margin-bottom: 15px;
 }
 
@@ -239,6 +239,15 @@ ul {
     position: relative;
     padding-top: 260px;
     padding-bottom: 100px;
+}
+
+body.project-page .projects-sec {
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+body.project-page .projects-sec .sec-title {
+    top: 00px;
 }
 
 /* PROJECTS SECTION>================================================ */
@@ -350,13 +359,13 @@ ul {
 }
 
 .marquee.img-marquee {
-    --marquee-item-gap: .5rem;
+    /* --marquee-item-gap: .5rem; */
     margin-bottom: 13px;
 }
 
 .marquee.img-marquee,
 .marquee.img-marquee .marquee-content {
-    gap: var(--marquee-item-gap);
+    gap: .5rem;
 }
 
 .marquee.img-marquee .marquee-content {
@@ -367,7 +376,6 @@ ul {
     content: "";
     display: none;
 }
-
 
 .marquee.img-marquee .img-wrapper {
     position: relative;
@@ -414,6 +422,10 @@ ul {
     animation: scroll var(--marquee-slider-speed) linear infinite;
 }
 
+.marquee.img-marquee .img-scroll {
+    animation: img-scroll var(--marquee-slider-speed) linear infinite;
+}
+
 .marquee .scroll.slider-3 {
     animation: scroll calc(var(--marquee-slider-speed) - 7s) linear infinite;
 }
@@ -432,6 +444,16 @@ ul {
     }
 }
 
+@keyframes img-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - .5rem));
+    }
+}
+
 /* SKILLS SECTION>================================================ */
 
 /* <CONTACT SECTION================================================ */
@@ -439,9 +461,11 @@ ul {
     padding-top: 310px;
     padding-bottom: 150px;
 }
+
 .contact-sec .sec-title {
     top: 150px;
 }
+
 /* CONTACT SECTION>================================================ */
 
 /* <FOOTER================================================ */
@@ -458,11 +482,25 @@ ul {
     font-size: 1.5rem;
 }
 
+.footer .contact-links li>a {
+    line-height: 1.5rem;
+    transition: color .2s ease-in-out;
+}
+
+.footer .contact-links li>a:hover {
+    color: var(--red_1);
+}
+
+
 /* FOOTER>================================================ */
 
 
 
-/* ================================================ */
+/* <COMPONENTS================================================ */
+
+/* 
+<content-underline-effect
+ */
 .content-underline-effect {
     display: inline-block;
     height: 100%;
@@ -484,9 +522,11 @@ ul {
     width: 100%;
 }
 
-/* ================================================ */
+/* 
+content-underline-effect>
+ */
 
-/* <COMPONENTS========================== */
+
 /* 
 <ja-btn
  */
@@ -567,8 +607,6 @@ ja-btn>
  <ja-display-card
   */
 
-.ja-display-card {}
-
 .ja-display-card .ja-card-img-bx {
     width: 350px;
     height: 550px;
@@ -576,7 +614,7 @@ ja-btn>
     overflow: hidden;
     border-radius: 20px;
     margin-bottom: 8px;
-    border: 2px solid var(--gray_1);
+    border: 3px solid var(--gray_1);
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 1);
     transition: border-color .2s ease-in-out;
 }
@@ -587,7 +625,7 @@ ja-btn>
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     z-index: 1;
     color: var(--red_1);
@@ -612,15 +650,15 @@ ja-btn>
 }
 
 .ja-display-card .ja-card-img-bx .overlay li>a {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border: 3px solid var(--red_1);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 8px;
     font-size: 1.5rem;
     transition: all .2s ease-in-out;
 }
@@ -630,18 +668,35 @@ ja-btn>
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
 }
 
-.ja-display-card:hover .ja-card-img-bx {
-    border-color: var(--red_1);
-
+.ja-display-card .ja-card-img-bx .overlay li>a i {
+    line-height: 12px;
+    font-size: 32px;
+    transition: all .2s ease-in-out;
 }
 
-.ja-display-card:hover .ja-card-img-bx .overlay {
+.ja-display-card .ja-card-img-bx .overlay li>a>img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    transition: all .2s ease-in-out;
+}
+
+.ja-display-card .ja-card-img-bx .overlay li>a:hover i,
+.ja-display-card .ja-card-img-bx .overlay li>a:hover img {
+    filter: drop-shadow(rgba(68, 68, 68, 0.5) 0px 1px 3px);
+}
+
+.ja-display-card:hover .ja-card-img-bx {
+    border-color: var(--red_1);
+}
+
+.ja-display-card .ja-card-img-bx:hover .overlay {
     opacity: 1;
     user-select: auto;
     pointer-events: all;
 }
 
-.ja-display-card .ja-card-img-bx img {
+.ja-display-card .ja-card-img-bx>img {
     position: absolute;
     top: 0%;
     left: 50%;
@@ -652,8 +707,16 @@ ja-btn>
     transition: width .2s ease-in-out;
 }
 
-.ja-display-card:hover .ja-card-img-bx img {
+.ja-display-card:hover .ja-card-img-bx>img {
     width: 105%;
+}
+
+.ja-display-card .ja-card-desc {
+    display: none;
+}
+
+.ja-display-card .ja-card-txt-bx {
+    text-transform: capitalize;
 }
 
 
@@ -661,4 +724,4 @@ ja-btn>
  <ja-display-card
   */
 
-/* COMPONENTS>========================== */
+/* COMPONENTS>================================================ */
