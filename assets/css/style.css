@@ -344,12 +344,11 @@ ul {
 
 /* <PROJECTS SECTION================================================ */
 body.project-page .projects-sec {
-    padding-top: 160px;
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
 }
 
-body.project-page .projects-sec .sec-title {
-    top: 0px;
+body.project-page .projects-sec .sec-header {
+    padding-top: 6rem;
 }
 
 /* PROJECTS SECTION>================================================ */
