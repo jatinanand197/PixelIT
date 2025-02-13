@@ -165,9 +165,9 @@ ul {
 }
 
 .top-bar .logo-name {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 35px;
 }
 
 .top-bar .logo-title {
@@ -296,7 +296,7 @@ ul {
 }
 
 .hero-sec .hero-content-txt {
-    font-size: clamp(30px, 4.29vw, 4rem);
+    font-size: clamp(30px, 4.29vw, 5rem);
     line-height: 1;
 
     position: relative;
