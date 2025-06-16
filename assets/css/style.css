@@ -164,7 +164,19 @@ ul {
     z-index: 999;
 }
 
-.top-bar .logo-name {
+.top-bar .logo {
+    display: block;
+    padding: 20px 0px;
+    width: 200px;
+}
+
+.top-bar .logo img {
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+/* .top-bar .logo-name {
     font-size: 35px;
     font-weight: 700;
     line-height: 35px;
@@ -173,7 +185,7 @@ ul {
 .top-bar .logo-title {
     color: var(--red_1);
     font-size: 18px;
-}
+} */
 
 .top-bar .nav-bar .header-otw a {
     font-family: var(--font-secondary);
@@ -735,6 +747,7 @@ ja-btn>
 .ja-display-card {
     width: clamp(300px, 24vw, 22.1rem);
     aspect-ratio: 7 / 11;
+    margin-top: 3rem;
 }
 
 .ja-display-card .ja-card-img-bx {
