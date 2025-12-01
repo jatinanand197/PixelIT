@@ -310,7 +310,7 @@ ul {
 .hero-sec .hero-content-txt {
     font-size: clamp(30px, 4.29vw, 5rem);
     line-height: 1;
-
+    
     position: relative;
     z-index: 1;
 }
@@ -961,6 +961,11 @@ ja-btn>
 
 }
 
+@media (min-width: 767px){
+    .hero-sec .hero-content-txt {
+        width: 60vw;
+    }
+}
 
 
 
